@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Simple Calculator</title>
 </head>
 <body>
-    <div class="container">
+    <div class="calculator">
         <section id="display-field">
             <div class="current-input"></div>
             <div class="result-value">0</div>
         </section>
         <section class="input-buttons">
-            <button>C</button>
-            <button>&#11013;</button>
-            <button>/</button>
-            <button>%</button>
+                <button class="func-button" value="clear">C</button>
+                <button class="func-button" value="erase">&#11013;</button>
+                <button class="func-button" value="/">/</button>
+                <button class="func-button" value="%">%</button>
+                <button class="num-button" value="7">7</button>
+                <button class="num-button" value="8">8</button>
+                <button class="num-button" value="9">9</button>
+                <button class="func-button" value="x">x</button>
+                <button class="num-button" value="4">4</button>
+                <button class="num-button" value="5">5</button>
+                <button class="num-button" value="6">6</button>
+                <button class="func-button" value="-">-</button>
+                <button class="num-button" value="1">1</button>
+                <button class="num-button" value="2">2</button>
+                <button class="num-button" value="3">3</button>
+                <button class="func-button" value="+">+</button>
+                <button class="num-button" value="00">00</button>
+                <button class="num-button" value="0">0</button>
+                <button class="num-button" value=".">.</button>
+                <button class="func-button" value="=">=</button>
         </section>
     </div>
 </body>
